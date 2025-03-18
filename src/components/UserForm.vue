@@ -119,7 +119,10 @@ function onRedo() {
     </div>
 
     <div class="flex space-x-2">
-      <button type="submit" class="flex-1 bg-blue-500 text-white py-2 cursor-pointer transition rounded-md hover:bg-blue-600">
+      <button
+        type="submit"
+        class="flex-1 bg-blue-500 text-white py-2 cursor-pointer transition rounded-md hover:bg-blue-600"
+      >
         Сохранить
       </button>
     </div>

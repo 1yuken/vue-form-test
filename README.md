@@ -1,35 +1,22 @@
-# vue-form-test
+# Форма пользователя
 
-This template should help get you started developing with Vue 3 in Vite.
+Данный проект является тестовым заданием. Задание заключается в создании веб-приложения - формы пользователя
 
-## Recommended IDE Setup
+## Описание функционала
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Основной функционал:
+- **Просмотр истории изменений** (шаг, изменения в форме).
+- **Undo/redo** функционал формы.
+- **Очистка истории** изменений формы.
 
-## Customize configuration
+А так же сохранение всех изменений при перезагрузке страницы или закрытии браузера.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Запуск проекта
 
-## Project Setup
+1. Клонируйте репозиторий.
+2. Установите все зависимости и запустите проект следующими командами:
+   **- npm install** 
+   **- npm run dev**
+3. Веб-приложение будет доступно по адресу **localhost:5173**.
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+**Стек**: Vue.js, JavaScript, Composition API, Pinia, TailwindCSS, Vite
